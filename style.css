@@ -1,11 +1,9 @@
-/* Reset margins and ensure the body covers the full viewport */
 body, html {
     height: 100%;
     margin: 0;
     font-family: Arial, sans-serif;
 }
 
-/* Apply the background image */
 body {
     /* Replace 'background.jpg' with your image file name */
     background-image: url('starry-night-sky.avif');
