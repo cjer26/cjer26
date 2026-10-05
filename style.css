@@ -5,23 +5,21 @@ body, html {
 }
 
 body {
-    /* Replace 'background.jpg' with your image file name */
     background-image: url('cosmic-nebula-space-background.jpg');
     
-    /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     
-    /* Optional: Center the content */
+    background-attachment: fixed;
+    
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-/* Style the text container so it stands out against the background */
 .content {
-    background: rgba(255, 255, 255, 0.85); /* Semi-transparent white box */
+    background: rgba(255, 255, 255, 0.85);
     padding: 40px;
     border-radius: 8px;
     text-align: center;
