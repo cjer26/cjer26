@@ -6,7 +6,7 @@ body, html {
 
 body {
     /* Replace 'background.jpg' with your image file name */
-    background-image: url('starry-night-sky.avif');
+    background-image: url('nebula.jpeg');
     
     /* Center and scale the image nicely */
     background-position: center;
