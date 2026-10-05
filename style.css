@@ -1,0 +1,40 @@
+/* Reset margins and ensure the body covers the full viewport */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Apply the background image */
+body {
+    /* Replace 'background.jpg' with your image file name */
+    background-image: url('starry-night-sky.avif');
+    
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    /* Optional: Center the content */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style the text container so it stands out against the background */
+.content {
+    background: rgba(255, 255, 255, 0.85); /* Semi-transparent white box */
+    padding: 40px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    margin-top: 0;
+    color: #333;
+}
+
+p {
+    color: #666;
+}
